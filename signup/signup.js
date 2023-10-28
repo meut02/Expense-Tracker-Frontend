@@ -13,10 +13,13 @@ async function savetoserver(event){
     try{
         const response=await axios.post('http://localhost:3000/User/Add-user',details)
 
-        
+if(response.status==201)
+{
+    window.location.href="../login/login.html"
+}
 
-             
-       // showUserOnScreen(response.data.newuserdetails);
+      // showUserOnScreen(response.data.newuserdetails);
+       console.log(response.status)
         console.log(response.data.newuserdetails);
     }
      catch (err) {
