@@ -90,4 +90,4 @@ function showUserOnScreen(user){
 
 }
 
-window.addEventListener('DOMContentLoaded', refresh)
+//window.addEventListener('DOMContentLoaded', refresh)

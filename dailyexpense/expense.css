@@ -1,0 +1,75 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the body */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Center the h1 in the header */
+header h1 {
+    margin: 0;
+}
+
+/* Style the container for the form and lists */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form elements */
+.container form div {
+    margin-bottom: 15px;
+}
+
+.container form label {
+    display: block;
+    font-weight: bold;
+}
+
+.container form input[type="text"],
+.container form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+.container form .btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the category lists */
+ul {
+    list-style: none;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+
